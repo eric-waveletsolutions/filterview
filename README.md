@@ -45,3 +45,16 @@ The graph displays two series:
 
 ## Purpose
 This application simulates how a raised cosine filter can smooth transitions in a signal, with user-controllable parameters. It's particularly relevant for digital communication systems, where pulse shaping is critical for minimizing bandwidth and reducing inter-symbol interference (ISI).
+
+---
+
+## Build and Run Instructions
+
+For detailed instructions on how to build and run this project on **Arch Linux**, **Ubuntu**, and **Windows**, refer to the [build_and_run.md](./build_and_run.md) file.
+
+---
+
+### What's Changed
+
+- Added a reference to the `build_and_run.md` file for easy access.
+- Cleaned up descriptions to improve readability and consistency.
