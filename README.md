@@ -1,4 +1,4 @@
-# Speed Graph with Adjustable Raised Cosine Filter
+# Filter-View with Adjustable Raised Cosine Filter
 
 This JavaFX application demonstrates the concept of a raised cosine filter applied to signal data, visualized in a dynamic graph. The user can control two key parameters:
 

@@ -289,7 +289,7 @@ public class App extends Application {
         // Setup and display the scene
         Scene scene = new Scene(layout, 900, 600);
         primaryStage.setScene(scene);
-        primaryStage.setTitle("Speed Graph with FFT");
+        primaryStage.setTitle("FilterView");
         primaryStage.show();
     }
 

@@ -1,6 +1,6 @@
-# Build and Run Instructions for Speed Graph Application
+# Build and Run Instructions for Filter-View Application
 
-This guide explains how to build and run the Speed Graph with Adjustable Raised Cosine Filter application on different platforms: **Arch Linux**, **Ubuntu**, and **Windows**.
+This guide explains how to build and run the Filter-View with Adjustable Raised Cosine Filter application on different platforms: **Arch Linux**, **Ubuntu**, and **Windows**.
 
 ## Prerequisites
 
