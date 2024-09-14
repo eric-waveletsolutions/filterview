@@ -16,6 +16,9 @@ This JavaFX application demonstrates the concept of a raised cosine filter appli
 - The range is from 0 (sharp transitions) to 1 (smooth transitions).
 
 ## Graph Display
+
+![FilterView Screenshot](filterview-screenshot.png)
+
 The graph displays two series:
 - **Original Speed**: Represents the unfiltered signal, directly derived from the speed slider.
 - **Filtered Speed (Raised Cosine)**: Represents the signal after it has been processed by a raised cosine filter, smoothing transitions based on the roll-off factor (beta).
