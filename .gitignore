@@ -32,6 +32,11 @@ pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
 pom.xml.next
+
+# Ignore .mvn directory except the wrapper properties file
+.mvn/*
+!.mvn/wrapper/maven-wrapper.properties
+
 # Avoid Mac specific files
 .DS_Store
 
@@ -40,3 +45,21 @@ pom.xml.next
 
 # Avoid Windows specific files
 Thumbs.db
+
+# IntelliJ IDEA project files
+/.idea/
+/*.iml
+/.classpath
+/.project
+/.settings/
+
+# NetBeans project files
+/nbproject/
+
+# IntelliJ IDEA plugin folder
+/.idea/modules.xml
+/.idea/workspace.xml
+
+# Exclude local run scripts
+*.sh
+*.bat

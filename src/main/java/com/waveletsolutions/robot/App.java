@@ -27,12 +27,11 @@ import org.apache.commons.math3.transform.TransformType;
 /**
  * The {@code App} class is a JavaFX application that demonstrates signal processing concepts 
  * such as filtering and Fast Fourier Transform (FFT) analysis. 
- * <p>
+ * 
  * This program allows users to control the speed of a motor (simulated via a slider), 
  * apply different types of filters (raised cosine and low-pass), and visualize the time-domain 
  * signal and its frequency-domain representation (FFT).
- * </p>
- * <p>
+ * 
  * Key features include:
  * <ul>
  *   <li>A vertical slider to adjust the speed of the signal in real-time.</li>
@@ -41,11 +40,9 @@ import org.apache.commons.math3.transform.TransformType;
  *   <li>An oscillation feature to automate speed changes in a square wave pattern.</li>
  *   <li>Real-time plots of both time-domain and frequency-domain (FFT) data.</li>
  * </ul>
- * </p>
- * <p>
+ * 
  * This class is intended as an educational tool for students learning about signal processing 
  * in the context of controlling a robot motor.
- * </p>
  * 
  * <h2>Usage:</h2>
  * <ol>
@@ -63,10 +60,9 @@ import org.apache.commons.math3.transform.TransformType;
  *   <li>Raised cosine and low-pass filters: Techniques to shape and smooth the signal.</li>
  * </ul>
  * 
- * <p>
+ * 
  * This application is designed to be simple and interactive, making it a useful tool 
  * for beginners in both programming and signal processing.
- * </p>
  * 
  * @author Eric Ratliff
  * @version 1.0.0

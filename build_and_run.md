@@ -6,8 +6,9 @@ This guide explains how to build and run the Speed Graph with Adjustable Raised 
 
 Before proceeding, ensure you have the following installed:
 - **Java Development Kit (JDK)** 17 or higher
-- **Maven** (for handling dependencies and building the project)
 - **Git** (for cloning the repository)
+
+> **Note**: You do not need to install Maven manually. The project includes the Maven Wrapper, which will handle everything.
 
 ---
 
@@ -23,13 +24,23 @@ sudo pacman -S jdk17-openjdk maven git
 ```bash
 git clone https://github.com/eric-waveletsolutions/speedgraph.git
 cd speedgraph
-mvn clean install
+./mvnw clean install
 ```
 
 ## 3. Run the Application
 ```bash
-mvn javafx:run
+./mvnw javafx:run
+```
 
+## 4. Generate Javadocs
+```bash
+./mvnw clean install -Pfull-build
+```
+
+## 5. View Javadocs
+Once generated, the Javadocs can be found in the `target/apidocs/` directory. Open the `index.html` file in a browser:
+```bash
+firefox target/apidocs/index.html
 ```
 
 ## Ubuntu
@@ -46,12 +57,23 @@ sudo apt install openjdk-17-jdk maven git
 ```bash
 git clone https://github.com/eric-waveletsolutions/speedgraph.git
 cd speedgraph
-mvn clean install
+./mvnw clean install
 ```
 
 ### 3. Run the Application
 ```bash
-mvn javafx:run
+./mvnw javafx:run
+```
+
+## 4. Generate Javadocs
+```bash
+./mvnw clean install -Pfull-build
+```
+
+## 5. View Javadocs
+Once generated, the Javadocs can be found in the `target/apidocs/` directory. Open the `index.html` file in a browser:
+```bash
+firefox target/apidocs/index.html
 ```
 
 ## Windows
@@ -69,10 +91,18 @@ Open the terminal (or Git Bash) and run:
 ```bash
 git clone https://github.com/eric-waveletsolutions/speedgraph.git
 cd speedgraph
-mvn clean install
+mvnw.cmd clean install
 ```
 
 ### 3. Run the Application
 ```bash
-mvn javafx:run
+mvnw.cmd javafx:run
 ```
+
+## 4. Generate Javadocs
+```bash
+mvnw.cmd clean install -Pfull-build
+```
+
+## 5. View Javadocs
+Once generated, the Javadocs can be found in the `target/apidocs/` directory. Open the `index.html` file in your browser by navigating to the directory and opening the file.

@@ -47,7 +47,6 @@ public class FFTUtils {
      * @param fftSize the desired size of the FFT (the number of points in the frequency domain)
      * @return an array of {@code Complex} numbers representing the frequency components of the input signal
      * 
-     * <h2>Details:</h2>
      * <ul>
      *   <li>If the number of samples is less than {@code fftSize}, the input array is padded with zeros.</li>
      *   <li>If the number of samples exceeds {@code fftSize}, the input array is truncated.</li>

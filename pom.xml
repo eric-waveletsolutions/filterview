@@ -10,6 +10,9 @@
   <url>http://maven.apache.org</url>
   
   <properties>
+    <!-- Set the source file encoding to UTF-8 -->
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <!-- Set Java version -->
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
   </properties>
@@ -43,6 +46,7 @@
 
   <build>
     <plugins>
+      <!-- Maven Compiler Plugin -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -52,6 +56,8 @@
           <target>17</target>
         </configuration>
       </plugin>
+      
+      <!-- JavaFX Maven Plugin -->
       <plugin>
           <groupId>org.openjfx</groupId>
           <artifactId>javafx-maven-plugin</artifactId>
@@ -67,6 +73,48 @@
               <mainClass>com.waveletsolutions.robot.App</mainClass>
           </configuration>
       </plugin>
+      
+      <!-- Maven Javadoc Plugin -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>3.3.1</version>
+        <executions>
+          <execution>
+            <goals>
+              <!-- Generate the static HTML Javadoc -->
+              <goal>javadoc</goal>
+              <!-- Generate the Javadoc JAR -->
+              <goal>jar</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
     </plugins>
   </build>
+  <profiles>
+      <profile>
+          <id>full-build</id>
+          <build>
+              <plugins>
+                  <!-- Javadoc Plugin (already in your build) -->
+                  <plugin>
+                      <groupId>org.apache.maven.plugins</groupId>
+                      <artifactId>maven-javadoc-plugin</artifactId>
+                      <version>3.3.1</version>
+                      <executions>
+                          <execution>
+                              <goals>
+                                  <goal>javadoc</goal>
+                                  <goal>jar</goal>
+                              </goals>
+                          </execution>
+                      </executions>
+                  </plugin>
+                  <!-- Other plugins and configurations -->
+              </plugins>
+          </build>
+      </profile>
+  </profiles>
+
 </project>
