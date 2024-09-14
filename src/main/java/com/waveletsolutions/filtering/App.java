@@ -41,8 +41,11 @@ import org.apache.commons.math3.transform.TransformType;
  *   <li>Real-time plots of both time-domain and frequency-domain (FFT) data.</li>
  * </ul>
  * 
- * This class is intended as an educational tool for students learning about signal processing 
- * in the context of controlling a robot motor.
+ * This class is intended as an educational tool for students and professional engineers 
+ * learning about signal processing techniques, such as filtering, in the context of real-time 
+ * signal control and visualization.
+ * It demonstrates the application of raised cosine and low-pass filters to signal data, 
+ * as well as the spectral analysis of filtered and non-filtered signals using FFT.
  * 
  * <h2>Usage:</h2>
  * <ol>

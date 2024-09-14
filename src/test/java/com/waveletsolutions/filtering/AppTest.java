@@ -1,4 +1,4 @@
-package com.waveletsolutions.robot;
+package com.waveletsolutions.filtering;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
