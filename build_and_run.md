@@ -1,6 +1,6 @@
-# Build and Run Instructions for Filter-View Application
+# Build and Run Instructions for FilterView Application
 
-This guide explains how to build and run the Filter-View with Adjustable Raised Cosine Filter application on different platforms: **Arch Linux**, **Ubuntu**, and **Windows**.
+This guide explains how to build and run the FilterView with Adjustable Raised Cosine Filter application on different platforms: **Arch Linux**, **Ubuntu**, and **Windows**.
 
 ## Prerequisites
 
@@ -22,8 +22,8 @@ sudo pacman -S jdk17-openjdk maven git
 
 ## 2. Clone the Repository and Build
 ```bash
-git clone https://github.com/eric-waveletsolutions/filter-view.git
-cd filter-view
+git clone https://github.com/eric-waveletsolutions/filterview.git
+cd filterview
 ./mvnw clean install
 ```
 
@@ -55,8 +55,8 @@ sudo apt install openjdk-17-jdk maven git
 
 ### 2. Clone the Repository and Build
 ```bash
-git clone https://github.com/eric-waveletsolutions/filter-view.git
-cd filter-view
+git clone https://github.com/eric-waveletsolutions/filterview.git
+cd filterview
 ./mvnw clean install
 ```
 
@@ -89,8 +89,8 @@ firefox target/apidocs/index.html
 
 Open the terminal (or Git Bash) and run:
 ```bash
-git clone https://github.com/eric-waveletsolutions/filter-view.git
-cd filter-view
+git clone https://github.com/eric-waveletsolutions/filterview.git
+cd filterview
 mvnw.cmd clean install
 ```
 
