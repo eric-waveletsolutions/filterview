@@ -1,4 +1,4 @@
-package com.waveletsolutions.robot;
+package com.waveletsolutions.filtering;
 
 import org.apache.commons.math3.complex.Complex;
 import org.apache.commons.math3.transform.DftNormalization;

@@ -1,4 +1,4 @@
-package com.waveletsolutions.robot;
+package com.waveletsolutions.filtering;
 
 import java.util.List;
 

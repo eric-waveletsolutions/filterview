@@ -1,4 +1,4 @@
-package com.waveletsolutions.robot;
+package com.waveletsolutions.filtering;
 
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;

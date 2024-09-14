@@ -22,8 +22,8 @@ sudo pacman -S jdk17-openjdk maven git
 
 ## 2. Clone the Repository and Build
 ```bash
-git clone https://github.com/eric-waveletsolutions/speedgraph.git
-cd speedgraph
+git clone https://github.com/eric-waveletsolutions/filter-view.git
+cd filter-view
 ./mvnw clean install
 ```
 
@@ -55,8 +55,8 @@ sudo apt install openjdk-17-jdk maven git
 
 ### 2. Clone the Repository and Build
 ```bash
-git clone https://github.com/eric-waveletsolutions/speedgraph.git
-cd speedgraph
+git clone https://github.com/eric-waveletsolutions/filter-view.git
+cd filter-view
 ./mvnw clean install
 ```
 
@@ -89,8 +89,8 @@ firefox target/apidocs/index.html
 
 Open the terminal (or Git Bash) and run:
 ```bash
-git clone https://github.com/eric-waveletsolutions/speedgraph.git
-cd speedgraph
+git clone https://github.com/eric-waveletsolutions/filter-view.git
+cd filter-view
 mvnw.cmd clean install
 ```
 
